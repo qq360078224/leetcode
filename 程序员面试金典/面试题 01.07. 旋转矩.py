@@ -8,7 +8,7 @@ class Solution:
     1. copy法<多申请空间>
     - 将原数组进行copy, 然后进行遍历, 将每一行的数据赋值给新数组的每一列
     '''
-    def rotate(self, matrix: List[List[int]]) -> None:
+    def rotate1(self, matrix: List[List[int]]) -> None:
         n = len(matrix)
         #result = [[0 for i in range(n)] for j in range(n)]
         result = copy.deepcopy(matrix)

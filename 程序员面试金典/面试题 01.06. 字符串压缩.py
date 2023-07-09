@@ -1,7 +1,7 @@
 from collections import Counter
 
-class Solution:
 
+class Solution:
     '''
     1. 遍历法
     - 对字符串进行遍历
@@ -10,6 +10,7 @@ class Solution:
     - 最后遍历结束后, 对最后一次得到的tempC和count 拼接
     - 注意题目要求, 对比result和原字符串的长度
     '''
+
     def compressString(self, S: str) -> str:
         if len(S) <= 0: return S
         result = ""
